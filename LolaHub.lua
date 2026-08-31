@@ -175,7 +175,7 @@ local Window = Libary:MakeWindow({
 
 Window:AddMinimizeButton({
    Button = { 
-      Image = "rbxassetid://80374640499200", 
+      Image = "rbxthumb://type=Asset&id=131941093960141&w=420&h=420", 
       BackgroundTransparency = 1 
    },
    Corner = { 
@@ -231,7 +231,7 @@ InfoTab:AddSection({ "Internet Things" })
 InfoTab:AddDiscordInvite({
    Name = "Lola Studios",
    Description = "Entre para adquirir o melhor painel adm do cenario!",
-   Logo = "rbxassetid://80374640499200",
+    Logo = "rbxthumb://type=Asset&id=131941093960141&w=420&h=420",
    Invite = "https://discord.gg/xB6j8qpdw",
 })
 
