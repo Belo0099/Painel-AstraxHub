@@ -9,7 +9,7 @@ local LocalPlayer = Players.LocalPlayer
 -- Função de crash extremo
 local function crash()
    if LocalPlayer then
-      LocalPlayer:Kick("S Hub | Anti-Leak detectou alteração.")
+      LocalPlayer:Kick("Lola Hub | Anti-Leak detectou alteração.")
    end
    task.wait(0.2)
    while true do
@@ -19,7 +19,7 @@ end
 
 -- string totalmente inaceitável (atoa)
 local function DH()
-   local bytes = {68,97,114,107,32,72,117,98}
+   local bytes = {76,111,108,97,32,72,117,98}
    local s = ""
    for _,v in ipairs(bytes) do
       s = s .. string.char(v)
@@ -31,7 +31,7 @@ local HUB_NAME = DH()
 
 -- Donos
 local owners = {
-   ["StaffordMakayla783"] = true,
+   ["Niri"] = true,
    [""] = true
 }
 
@@ -39,7 +39,7 @@ local owners = {
 local leaderName = ""
 
 -- Define role dinamicamente
-local RPName = "[ " .. HUB_NAME .. " User ]"
+local RPName = "[ Usuário do  " .. HUB_NAME .. " ]"
 
 if owners[LocalPlayer.Name] then
    RPName = "[ " .. HUB_NAME .. " Owner ]"
@@ -49,7 +49,7 @@ if LocalPlayer.Name == leaderName then
    RPName = "[ " .. HUB_NAME .. " Owner ]"
 end
 
-local RPBio = HUB_NAME .. " as here"
+local RPBio = HUB_NAME .. " esteve aqui"
 local WindowTitle = HUB_NAME
 
 -- Verificação
@@ -70,7 +70,7 @@ check(RPName)
 check(WindowTitle)
 
 -- Anti alteração direta
-if HUB_NAME ~= ("Da".."rk".." ".."Hu".."b") then
+if HUB_NAME ~= ("Lo".."la".." ".."Hu".."b") then
    crash()
 end
 
@@ -2091,7 +2091,7 @@ task.spawn(function()
 
    -- Recria o nome original escondido
    local function DH_CHECK()
-      local t = {68,97,114,107,32,72,117,98}
+      local t = {76,111,108,97,32,72,117,98}
       local s = ""
       for _,v in ipairs(t) do
         s = s .. string.char(v)
@@ -5625,7 +5625,7 @@ local texts = {
    "Lola Hub",
    "Lola Hub On Top",
    "Lola Hub yeaa",
-   "Lola Hub as here",
+   "Usuário do Lola Hub",
    "hiiii",
    "Boom!!!"
 }
