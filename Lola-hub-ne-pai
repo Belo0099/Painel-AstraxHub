@@ -31,7 +31,7 @@ local HUB_NAME = DH()
 
 -- Donos
 local owners = {
-   ["Raryson"] = true,
+   ["Niri"] = true,
    [""] = true
 }
 
@@ -49,7 +49,7 @@ if LocalPlayer.Name == leaderName then
    RPName = "[ " .. HUB_NAME .. " Owner ]"
 end
 
-local RPBio = HUB_NAME .. " no Topo"
+local RPBio = HUB_NAME .. " RAYSON"
 local WindowTitle = HUB_NAME
 
 -- Verificação
